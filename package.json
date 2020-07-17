@@ -1,0 +1,17 @@
+{
+  "name": "refreshing-express",
+  "scripts": {
+    "build": "yarn tsc",
+    "start": "yarn build && yarn node dist/index.js",
+    "dev": "yarn nodemon --ext ts --exec yarn start"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.23",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  }
+}
